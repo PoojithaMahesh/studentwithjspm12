@@ -13,7 +13,8 @@
 <%}else{ %>
 <h1><%="Welcome to LoginPAge please Login" %></h1>
 <%} %>
-<form action="login">
+
+<form action="login" method="post">
 Email::<input type="email" name="email">
 Password::<input type="password" name="password">
 <input type="submit" name="LOGIN">
